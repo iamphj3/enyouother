@@ -80,7 +80,7 @@ section {
 
 #list{
 	text-align: center;
-    /*margin: 0px auto 20px auto;*/
+    margin: 0px auto 20px auto;
 	background-color: #732379;
 }
 input {
@@ -91,7 +91,7 @@ input {
 }
 label {  
 	width: 400px;   
-	/*margin: 0px 30px 50px -30px;*/
+	margin: 0px 30px 50px -30px;
     padding: 10px 25px;	
     font-family: 'Jua', sans-serif;
     font-size : 25px;
