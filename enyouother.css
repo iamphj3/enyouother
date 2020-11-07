@@ -80,17 +80,18 @@ section {
 
 #list{
 	text-align: center;
-    margin: 0px auto 20px auto;
+    /*margin: 0px auto 20px auto;*/
 	background-color: #732379;
 }
 input {
 	visibility: hidden;
 	height: 35px;
+	width: 0px;
 	margin: 0px 30px 30px -30px;
 }
 label {  
-    width: 350px;   
-	margin: 0px 30px 50px -30px;
+	width: 400px;   
+	/*margin: 0px 30px 50px -30px;*/
     padding: 10px 25px;	
     font-family: 'Jua', sans-serif;
     font-size : 25px;
@@ -113,7 +114,21 @@ input:checked +label {
     color: black;
 	background-color: #5cd4f6;  
 }
-
+/*
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8,#tab9{
+	width: 400px;   
+	/*margin: 0px 30px 50px -30px;
+    padding: 10px 25px;	
+    font-family: 'Jua', sans-serif;
+    font-size : 25px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    border: 3px solid black;
+    border-radius: 1em;
+	z-index: -1;
+}
+*/
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
