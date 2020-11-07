@@ -86,14 +86,11 @@ section {
 input {
 	visibility: hidden;
 	height: 35px;
-	margin-bottom: 30px; 
-	margin-left: -40px;
-	z-index: -1;
+	margin: 0px 30px 30px -30px;
 }
 label {  
     width: 350px;   
-    margin-left: -30px;
-    margin-bottom: 50px;
+	margin: 0px 30px 50px -30px;
     padding: 10px 25px;	
     font-family: 'Jua', sans-serif;
     font-size : 25px;
@@ -102,6 +99,7 @@ label {
     color: black;
     border: 3px solid black;
     border-radius: 1em;
+	z-index: -1;
  
 }
 
