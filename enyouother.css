@@ -85,13 +85,13 @@ section {
 }
 input {
 	visibility: hidden;
-	height: 35px;
-	width: 0px;
-	margin: 0px 30px 30px -30px;
+	/*height: 35px;*/
+	height: 0px;
+	width: 1000px;
 }
 label {  
 	width: 400px;   
-	margin: 0px 30px 50px -30px;
+	margin: 0px auto;
     padding: 10px 25px;	
     font-family: 'Jua', sans-serif;
     font-size : 25px;
@@ -100,8 +100,8 @@ label {
     color: black;
     border: 3px solid black;
     border-radius: 1em;
-	z-index: -1;
- 
+	z-index: +100;
+  	position: relative;
 }
 
 label:hover {
