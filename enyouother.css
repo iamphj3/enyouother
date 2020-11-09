@@ -9,7 +9,7 @@ html{
 
 body { 
 	margin: 0 auto;
-	width : 420px;
+	width : 400px;
 	background-color: #732379;
 }
 a {
@@ -20,7 +20,7 @@ a {
 	font-family: 'Jua', sans-serif;
 	color: white;
 	text-align: center;
-	width: 400px;
+	width: 380px;
 	height: 200px;
 	margin: 0px auto;
 	padding: 10px 10px 10px 10px;
@@ -32,7 +32,7 @@ a {
 	background-color: #732379;
 	text-align: center;
 	margin: 0px auto;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	height: 200px;
 }
 .post-wrapper{
@@ -41,16 +41,15 @@ a {
     vertical-align: middle;
     text-align: center;
 	margin: 0px auto;	
-	padding: 0px 5px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 }
 
 #post1{
-	padding: 0px 15px;
+	padding: 0px 10px;
 	background-color: #732379;
-	font-size: 35px;	
+	font-size: 34px;	
 	color: #5cd4f6; 
-	margin: 0px auto;
+	margin: 10px auto 0px auto;
 	height: 40px;
 }
 #post2{
@@ -114,21 +113,7 @@ input:checked +label {
     color: black;
 	background-color: #5cd4f6;  
 }
-/*
-#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8,#tab9{
-	width: 400px;   
-	/*margin: 0px 30px 50px -30px;
-    padding: 10px 25px;	
-    font-family: 'Jua', sans-serif;
-    font-size : 25px;
-    font-weight: 600;
-    text-align: center;
-    color: black;
-    border: 3px solid black;
-    border-radius: 1em;
-	z-index: -1;
-}
-*/
+
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
