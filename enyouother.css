@@ -10,10 +10,10 @@ html{
 body { 
 	margin: 0 auto;
 	width : 410px;
-	background-color: #732379;
+	background-color: #90268f;
 }
 a {
-	background-color: #732379;
+	background-color: #90268f;
 	height: 1px;
 }
 #banner {
@@ -24,19 +24,19 @@ a {
 	height: 200px;
 	margin: 0px auto;
 	padding: 10px 10px 10px 10px;
-	background-color: #732379;
+	background-color: #90268f;
 	border : none;
 	padding-bottom: 10px;
 }
 .post{
-	background-color: #732379;
+	background-color: #90268f;
 	text-align: center;
 	margin: 0px auto;
 	padding: 10px;
 	height: 200px;
 }
 .post-wrapper{
-	background-color: #732379;
+	background-color: #90268f;
 	height: 200px;
     vertical-align: middle;
     text-align: center;
@@ -46,14 +46,14 @@ a {
 
 #post1{
 	padding: 0px 10px;
-	background-color: #732379;
+	background-color: #90268f;
 	font-size: 34px;	
-	color: #5cd4f6; 
+	color: #21bdbd; 
 	margin: 10px auto 0px auto;
 	height: 40px;
 }
 #post2{
-	background-color: #732379;
+	background-color: #90268f;
 	font-size: 19px;	
 	color: white; 
 	margin: 7px auto 0px auto;
@@ -72,7 +72,7 @@ section {
 	height: 100%;
     display: none;
     border-top: 1px;
-	background-color: #732379;
+	background-color: #90268f;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -80,7 +80,7 @@ section {
 #list{
 	text-align: center;
     margin: 0px auto 20px auto;
-	background-color: #732379;
+	background-color: #90268f;
 }
 input {
 	visibility: hidden;
@@ -107,12 +107,12 @@ label {
 label:hover {
     color: white;
     cursor: pointer;
-	background-color: #5cd4f6; 
+	background-color: #21bdbd; 
 }
      
 input:checked +label {
     color: black;
-	background-color: #5cd4f6;  
+	background-color: #21bdbd;  
 }
 
 #tab1:checked ~ #content1,
@@ -130,7 +130,7 @@ input:checked +label {
 .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,{
 	width: 280px;
 	margin: 0 auto;   
-	background-color: #732379; 
+	background-color: #90268f; 
 }
 p {	
     font-family: 'Jua', sans-serif, bold;
@@ -145,7 +145,7 @@ p {
 #content6, #content7, #content8, #content9 {
 	width: 350px;
 	height: 100%;
-	background-color: #732379;
+	background-color: #90268f;
 	margin: 0px auto 15px auto;
 }
 
@@ -153,7 +153,7 @@ p {
 	margin-top: 20px;
 	padding: 25px;
 	text-align: center;
-	background-color: #732379;
+	background-color: #90268f;
 }
 #answer button { 
 	width: 300px;
@@ -161,7 +161,7 @@ p {
 	font-size: 35px; 
 	border : none;
 	border-radius: 2em;
-	background-color: #5cd4f6; 
+	background-color: #21bdbd; 
 	color: white; 
 	margin-bottom: 10px; 
 	padding: 15px; 
@@ -169,18 +169,18 @@ p {
 }
 
 #answer button:hover { 
-	color: #5cd4f6; 
+	color: #21bdbd; 
 	background-color: white; 
 	font-family: 'Jua', sans-serif;
 }
 #answer #btn1 { 
-	background-color: #732379;
+	background-color: #90268f;
 }
 c {	
     font-family: 'Jua', sans-serif;
     font-size: 16px;
 
-    background-color: #732379;
+    background-color: #90268f;
     text-align: center;	
 
     margin: 0 auto;
